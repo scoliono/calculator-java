@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package allOperations;
 
 import java.awt.event.ActionEvent;
@@ -213,28 +210,20 @@ public class calculator extends javax.swing.JFrame implements ActionListener {
     }//GEN-LAST:event_calculateActionPerformed
 
     private void divideActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divideActionPerformed
-        // TODO add your handling code here:
         operation=3;
     }//GEN-LAST:event_divideActionPerformed
 
     private void multiplyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multiplyActionPerformed
-        // TODO add your handling code here:
         operation=2;
     }//GEN-LAST:event_multiplyActionPerformed
 
     private void subtractActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subtractActionPerformed
-        // TODO add your handling code here:
         operation=1;
     }//GEN-LAST:event_subtractActionPerformed
 
     private void addActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addActionPerformed
-        // TODO add your handling code here:
         operation=0;
     }//GEN-LAST:event_addActionPerformed
-
-    private void formMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_formMouseClicked
 
     /**
      * @param args the command line arguments
